@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cor.esipfed.org/ont/earthcube/srt#"
+     xml:base="http://cor.esipfed.org/ont/earthcube/srt"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/earthcube/srt">
+        <dc:description xml:lang="en">The Semantic Resource Types Vocabulary was created for NSF&apos;s EarthCube Program&apos;s Resource Repository.  At this point it merely lists the types of semantic resources in the repository.  Primary use case - give me a list of the ontologies in use within EarthCube projects.</dc:description>
+        <dc:title xml:lang="en">Semantic Resource Types Vocabulary</dc:title>
+        <terms:bibliographicCitation xml:lang="en">Duerr, R., 2019, &quot;Semantic Resource Types Vocabulary&quot;, ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/srt</terms:bibliographicCitation>
+        <terms:license rdf:resource="https://creativecommons.org/share-your-work/public-domain/cc0/"/>
+        <terms:license xml:lang="en">Ruth Duerr</terms:license>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasURI -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasURI"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/srt_0000001 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/srt_0000001">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/srt_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">A semantic resource that only consists of a set of terms and their definitions, possibly including synonyms.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T04:37:33Z</oboInOwl:creation_date>
+        <rdfs:comment xml:lang="en">Examples: NSIDC&apos;s Cryosphere Glossary https://nsidc.org/cryosphere/glossary</rdfs:comment>
+        <rdfs:label xml:lang="en">Glossary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/srt_0000002 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/srt_0000002">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/srt_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">A semantic resource consisting of a structured controlled vocabulary where there is information about each term and its hierarchical, associative, or equivalence relationships to other terms in the thesaurus.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T04:40:05Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Thesaurus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/srt_0000003 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/srt_0000003">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/srt_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">A semantic resource containing a set of concepts with attributes and relationships between the concepts which together define a domain of knowledge, expressed in machine-readable format.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T04:41:32Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Ontology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/srt_0000004 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/srt_0000004">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/srt_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">A semantic resource consisting of a list of terms controlled by some authority, generally intended to populate pick lists in user interfaces.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T04:42:17Z</oboInOwl:creation_date>
+        <rdfs:comment xml:lang="en">Assumption is that users will all understand the terms without any additional guidance.</rdfs:comment>
+        <rdfs:label xml:lang="en">Controlled Vocabulary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/srt_0000005 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/srt_0000005">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/srt_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">A semantic resource made up of hierarchies of terms organized as tree structures without significant relationships to concepts in other trees.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T04:43:21Z</oboInOwl:creation_date>
+        <rdfs:comment xml:lang="en">Example: domain, kingdom, phylum or division, class, genus, species is the taxonomic heirarchy in Biology.</rdfs:comment>
+        <rdfs:label xml:lang="en">Taxonomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/srt_0000006 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/srt_0000006">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/srt_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">A semantic resource consisting of an information model represented with artifacts such as diagrams (e.g. UML, concept maps) and associated text, not formalized as an ontology.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T04:49:05Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Conceptual Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/srt_0000007 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/srt_0000007">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/srt_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">A semantic resource containing a representation of a knowledge domain that defines rdf classes and attributes, along with domain and range constraints for some attributes.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T04:50:36Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym xml:lang="en">Resource Description Framework vocabulary</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">Distinguish from more formal ontologies by absence of general class relationships, and restrictions offered by representations like OWL.</rdfs:comment>
+        <rdfs:label xml:lang="en">RDF vocabulary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/srt_0000008 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/srt_0000008">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/srt_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">A semantic resource comprised of a collection of concepts with identifiers, preferred labels, and definitions; including broader, narrower, related and transitive relationships, labels in alternate languages, and other annotation properties.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T04:52:45Z</oboInOwl:creation_date>
+        <rdfs:comment xml:lang="en">Encoded using SKOS rdf vocabulary.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Glossary, Taxonomy,  and Thesaurus might be represented using SKOS vocabulary, but each lack one or more of the semantic enhancments offered by SKOS.</rdfs:comment>
+        <rdfs:label xml:lang="en">SKOS vocabulary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/srt_0000009 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/srt_0000009">
+        <obo:IAO_0000115 xml:lang="en">A categorization of the kind of semantic resource a given resource is.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T04:55:49Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Semantic Resource Type</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+
